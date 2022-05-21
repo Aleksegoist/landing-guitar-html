@@ -30,6 +30,13 @@ body {
     color: #666666;
 }
 
+ul {
+}
+
+li {
+    list-style: none;
+}
+
 .wrapper {
     overflow: hidden;
     min-height: 100%;
@@ -45,4 +52,22 @@ body {
     max-width: 1230px;
     margin: 0 auto;
     padding: 0 15px;
+}
+/* --------------- header --------------- */
+.header {
+}
+.header__container {
+    display: flex;
+}
+.header__logo {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
 }
