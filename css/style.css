@@ -64,7 +64,11 @@ a {
 .page {
     flex: 1 1 auto;
 }
+
 .page__main {
+}
+
+.page__store {
 }
 /* -------------------------------------------------- */
 [class*='__container'] {
@@ -291,4 +295,75 @@ a {
         margin-right: 0px;
         margin-bottom: 15px;
     }
-} ;
+}
+/* ---------------------------store guitars----------------------------------- */
+.store {
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+
+.store__container {
+}
+
+.store__title {
+    margin-bottom: 86px;
+}
+
+.title {
+}
+
+.store__body {
+}
+
+.body-store {
+}
+
+.body-store__header {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+.body-store__title {
+    letter-spacing: 0.08em;
+    color: #121212;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.body-store__all {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #868686;
+}
+
+.body-store__items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 54px;
+}
+
+.body-store__item {
+}
+
+.item {
+    display: grid;
+}
+
+.item__image {
+}
+
+.item__image:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.item__title {
+}
+
+.item__price {
+}
