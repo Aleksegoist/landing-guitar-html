@@ -86,6 +86,8 @@ a {
 .page__why {
 }
 
+.page__reviews {
+}
 /* -------------------------------------------------- */
 [class*='__container'] {
     max-width: 1230px;
@@ -718,4 +720,67 @@ a {
         justify-content: stretch;
         grid-template-columns: repeat(1, auto);
     }
+}
+/* ---------------------Reviews------------------------------------ */
+.reviews {
+    padding-top: 240px;
+    padding-bottom: 240px;
+}
+.reviews__container {
+}
+.reviews__title {
+    margin-bottom: 100px;
+}
+
+@media (max-width: 991.98px) {
+    .reviews {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .reviews__title {
+        margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .reviews {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .reviews__title {
+        margin-bottom: 30px;
+    }
+}
+
+.reviews__swiper {
+}
+.swiper-reviews {
+}
+.swiper {
+}
+.swiper-reviews__wrapper {
+}
+.swiper-wrapper {
+}
+.swiper-reviews__slide {
+}
+.slide-swiper-reviews {
+}
+.swiper-slide {
+}
+.slide-swiper-reviews__image {
+}
+.slide-swiper-reviews__body {
+}
+.slide-swiper-reviews__text {
+}
+.slide-swiper-reviews__author {
+}
+.slide-swiper-reviews__name {
+}
+.slide-swiper-reviews__position {
+}
+.swiper-reviews__pagination {
+}
+.swiper-pagination {
 }
